@@ -200,5 +200,10 @@ After execution, the system will automatically restart, and the display screen w
 ( ' 90 ' can be changed to 0, 90, 180 and 270, respectively representing rotation angles of 0 degrees, 90 degrees, 180 degrees, 270 degrees)<br>
 (If the rotate.sh prompt cannot be found, use Method 1 to install the latest drivers)
 
+### McCustom
 
-
+sudo rm -rf LCD-show
+git clone https://github.com/goodtft/LCD-show.git
+chmod -R 755 LCD-show
+cd LCD-show/
+sudo ./MHS35-show
